@@ -1,0 +1,27 @@
+{
+  "name": "todo-hooks",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2",
+    "styled-components": "^4.1.2"
+  },
+  "devDependencies": {
+    "react-scripts": "^2.1.2"
+  },
+  "scripts": {
+    "start": "NODE_PATH=src react-scripts start",
+    "build": "NODE_PATH=src react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    "last 2 Firefox versions",
+    "last 2 Chrome versions",
+    "last 2 ChromeAndroid versions",
+    "last 2 iOS versions",
+    "last 2 Safari versions"
+  ]
+}
